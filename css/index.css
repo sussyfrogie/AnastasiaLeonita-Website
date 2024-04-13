@@ -146,6 +146,10 @@ body {
     padding: 20px 0;
 }
 
+.twoButtonTwo {
+    display: none;
+}
+
 .darkButton {
     margin: 0;
     width: 150px;
@@ -451,6 +455,27 @@ body {
         top: 90px;
         left: 10%;
         width: 80%;
+    }
+
+    .twoButtonTwo {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        width: 100%;
+        margin: 20px auto;
+        height: max-content;
+    }
+    
+    .twoButton {
+        display: none;
+    }
+
+    .jobBox {
+        display: none;
+    }
+
+    .darkButton {
+        background-color: rgb(239, 227, 255);
     }
 
     .desktop {
